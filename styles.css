@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 255, 0.3) 30%);
+  color: #fff;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+.project {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
